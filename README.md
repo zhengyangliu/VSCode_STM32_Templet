@@ -1,1 +1,3 @@
 # STM32_VSCode
+
+这是一个用CubeMX生成的STM32工程，使用STM32F429DISCO评估板，启动了一个BLINK任务进行测试。右键在目录下使用VS Code打开，即可进行开发。

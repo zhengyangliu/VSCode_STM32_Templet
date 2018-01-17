@@ -1,0 +1,53 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/Inc",
+                "${workspaceRoot}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/include",
+                "${workspaceRoot}/Drivers/CMSIS/Include",
+                "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include",
+                "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include/c++/7.2.1",
+                "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7-m",
+                "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include/c++/7.2.1/backward",
+                "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include/sys",
+                "D:/GNU Tools ARM Embedded/7 2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include",
+                "D:/GNU Tools ARM Embedded/7 2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include-fixed"
+            ],
+            "defines": [
+                "STM32F429xx",
+                "__weak=\"__attribute__((weak))\"",
+                "__packed=\"__attribute__((__packed__))\"",
+                "USE_HAL_DRIVER"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "${workspaceRoot}/Inc",
+                    "${workspaceRoot}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                    "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                    "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+                    "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+                    "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/include",
+                    "${workspaceRoot}/Drivers/CMSIS/Include",
+                    "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include",
+                    "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include/c++/7.2.1",
+                    "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include/c++/7.2.1/arm-none-eabi/thumb/v7-m",
+                    "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include/c++/7.2.1/backward",
+                    "D:/GNU Tools ARM Embedded/7 2017-q4-major/arm-none-eabi/include/sys",
+                    "D:/GNU Tools ARM Embedded/7 2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include",
+                    "D:/GNU Tools ARM Embedded/7 2017-q4-major/lib/gcc/arm-none-eabi/7.2.1/include-fixed"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 3
+}

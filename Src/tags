@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AHBPrescTable	system_stm32f4xx.c	/^const uint8_t AHBPrescTable[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	v
+APBPrescTable	system_stm32f4xx.c	/^const uint8_t APBPrescTable[8]  = {0, 0, 0, 0, 1, 2, 3, 4};$/;"	v
+Error_Handler	main.c	/^void Error_Handler(void)$/;"	f
+HAL_InitTick	stm32f4xx_hal_timebase_TIM.c	/^HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)$/;"	f
+HAL_MspInit	stm32f4xx_hal_msp.c	/^void HAL_MspInit(void)$/;"	f
+HAL_ResumeTick	stm32f4xx_hal_timebase_TIM.c	/^void HAL_ResumeTick(void)$/;"	f
+HAL_SuspendTick	stm32f4xx_hal_timebase_TIM.c	/^void HAL_SuspendTick(void)$/;"	f
+HAL_TIM_PeriodElapsedCallback	main.c	/^void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)$/;"	f
+HSE_VALUE	system_stm32f4xx.c	70;"	d	file:
+HSI_VALUE	system_stm32f4xx.c	74;"	d	file:
+LD3_GPIO_Port	main.c	74;"	d	file:
+LD3_Pin	main.c	73;"	d	file:
+LD4_GPIO_Port	main.c	76;"	d	file:
+LD4_Pin	main.c	75;"	d	file:
+Light_Task	main.c	/^void Light_Task(void *pvParameters)$/;"	f
+MX_GPIO_Init	main.c	/^static void MX_GPIO_Init(void)$/;"	f	file:
+StartDefaultTask	main.c	/^void StartDefaultTask(void const * argument)$/;"	f
+SysTick_Handler	stm32f4xx_it.c	/^void SysTick_Handler(void)$/;"	f
+SystemClock_Config	main.c	/^void SystemClock_Config(void)$/;"	f
+SystemCoreClock	system_stm32f4xx.c	/^uint32_t SystemCoreClock = 16000000;$/;"	v
+SystemCoreClockUpdate	system_stm32f4xx.c	/^void SystemCoreClockUpdate(void)$/;"	f
+SystemInit	system_stm32f4xx.c	/^void SystemInit(void)$/;"	f
+SystemInit_ExtMemCtl	system_stm32f4xx.c	/^void SystemInit_ExtMemCtl(void)$/;"	f
+TIM8_TRG_COM_TIM14_IRQHandler	stm32f4xx_it.c	/^void TIM8_TRG_COM_TIM14_IRQHandler(void)$/;"	f
+VECT_TAB_OFFSET	system_stm32f4xx.c	111;"	d	file:
+assert_failed	main.c	/^void assert_failed(uint8_t* file, uint32_t line)$/;"	f
+defaultTaskHandle	main.c	/^osThreadId defaultTaskHandle;$/;"	v
+htim14	stm32f4xx_hal_timebase_TIM.c	/^TIM_HandleTypeDef        htim14; $/;"	v
+main	main.c	/^int main(void)$/;"	f
+uwIncrementState	stm32f4xx_hal_timebase_TIM.c	/^uint32_t                 uwIncrementState = 0;$/;"	v
